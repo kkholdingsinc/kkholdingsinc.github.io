@@ -1,0 +1,42 @@
+*{box-sizing:border-box}
+:root{
+  --white:#FFFFFF;
+  --off:#F7F6F3;
+  --black:#000000;
+  --charcoal:#2D2D2D;
+  --gold:#B89B5E;
+  --line:#E5E2DC;
+  --muted:#707070;
+}
+html,body{margin:0;min-height:100%;background:var(--off);color:var(--charcoal)}
+body{font-family:Helvetica,Arial,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif}
+.page-shell{min-height:100vh;padding:28px 16px;display:flex;align-items:flex-start;justify-content:center}
+.card{width:min(100%,520px);background:var(--white);border-radius:28px;overflow:hidden;box-shadow:0 20px 55px rgba(0,0,0,.10)}
+.brand-panel{background:var(--charcoal);padding:42px 28px 34px;text-align:center;color:#fff}
+.logo{width:92px;height:auto;display:block;margin:0 auto 15px}
+.company{font-size:22px;letter-spacing:.055em;font-weight:400}
+.profile{padding:38px 30px 30px}
+.gold-rule{width:46px;height:3px;background:var(--gold);margin-bottom:20px}
+.eyebrow{margin:0 0 7px;text-transform:uppercase;letter-spacing:.16em;font-size:12px;color:var(--gold);font-weight:700}
+h1{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-size:44px;line-height:1.02;margin:0;color:var(--black);font-weight:600}
+.jp-name{font-size:22px;margin:9px 0 13px;letter-spacing:.08em}
+.brand-line{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-size:20px;line-height:1.35;margin:0 0 30px;color:#555}
+.actions{display:grid;gap:11px}
+.action{display:grid;grid-template-columns:46px 1fr 20px;align-items:center;gap:14px;text-decoration:none;color:var(--charcoal);border:1px solid var(--line);border-radius:16px;padding:13px 14px;background:#fff;transition:.15s ease}
+.action:hover,.action:focus-visible{border-color:var(--gold);transform:translateY(-1px);box-shadow:0 7px 18px rgba(0,0,0,.06)}
+.action.primary{background:#F3F1EC;border-color:#D8D0C0}
+.icon{width:42px;height:42px;border-radius:12px;background:var(--charcoal);color:#fff;display:flex;align-items:center;justify-content:center;font-size:21px}
+.action strong{display:block;font-size:16px;line-height:1.2}
+.action small{display:block;margin-top:4px;color:var(--muted);font-size:13px;line-height:1.25;overflow-wrap:anywhere}
+.chev{font-size:30px;color:#999;font-weight:300}
+.note{margin:30px 4px 0;padding-top:22px;border-top:1px solid var(--line);font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-size:18px;line-height:1.5;color:#666}
+footer{background:var(--charcoal);color:#D9D9D9;padding:18px 24px;text-align:center;font-size:11px;letter-spacing:.08em}
+.footer-dot{padding:0 8px;color:var(--gold)}
+@media(max-width:420px){
+  .page-shell{padding:0}
+  .card{border-radius:0;min-height:100vh;box-shadow:none}
+  .brand-panel{padding:36px 22px 30px}
+  .profile{padding:32px 22px 26px}
+  h1{font-size:39px}
+  .mobile-break{display:none}
+}

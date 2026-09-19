@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kobayashi;Kosei;;;
+FN:Kosei Kobayashi
+ORG:KK Holdings Inc.
+TITLE:President & CEO
+TEL;TYPE=CELL:+818037270726
+EMAIL;TYPE=INTERNET:kosei@kkholdings.net
+URL:https://www.kkholdings.biz/en
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/kosei-kobayashi-9018a648/
+ADR;TYPE=WORK:;;9-18 Nanpeidai-cho;Shibuya-ku;Tokyo;150-0036;Japan
+END:VCARD
