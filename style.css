@@ -18,7 +18,7 @@ body{font-family:Helvetica,Arial,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-se
 .profile{padding:38px 30px 30px}
 .gold-rule{width:46px;height:3px;background:var(--gold);margin-bottom:20px}
 .eyebrow{margin:0 0 7px;text-transform:uppercase;letter-spacing:.16em;font-size:12px;color:var(--gold);font-weight:700}
-h1{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-size:44px;line-height:1.02;margin:0;color:var(--black);font-weight:600}
+h1{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-size:40px;line-height:1.02;margin:0;color:var(--black);font-weight:600}
 .jp-name{font-size:22px;margin:9px 0 13px;letter-spacing:.08em}
 .brand-line{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-size:20px;line-height:1.35;margin:0 0 30px;color:#555}
 .actions{display:grid;gap:11px}
@@ -37,6 +37,6 @@ footer{background:var(--charcoal);color:#D9D9D9;padding:18px 24px;text-align:cen
   .card{border-radius:0;min-height:100vh;box-shadow:none}
   .brand-panel{padding:36px 22px 30px}
   .profile{padding:32px 22px 26px}
-  h1{font-size:39px}
+  h1{font-size:36px}
   .mobile-break{display:none}
 }
