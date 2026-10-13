@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kobayashi;Kosei;;;
+FN:Kosei Kobayashi
+ORG:International House of Japan
+TITLE:Managing Director
+EMAIL;TYPE=INTERNET,WORK:kosei.kobayashi@ihj.global
+TEL;TYPE=WORK,VOICE:+81-3-3470-9115
+URL:https://ihj.global/
+ADR;TYPE=WORK:;;5-11-16 Roppongi;Minato-ku;Tokyo;106-0032;Japan
+END:VCARD
